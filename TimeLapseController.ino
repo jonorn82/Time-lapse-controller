@@ -31,7 +31,7 @@ const boolean startAtMotor = false; // Slider will start on the motor side of th
 // ---------- END --------------------------
 
 const int shots = fps * clipLength;
-const int sliderLength() {
+const int sliderLength() { // Measured length of the slider in steps
   if(startAtMotor){
     return -3240;
   } 
